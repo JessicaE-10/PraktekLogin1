@@ -15,6 +15,8 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
+        // coba lagi
+
         val inputUsername = findViewById<EditText>(R.id.inputUsername)
         val inputPassword = findViewById<EditText>(R.id.inputPassword)
 
