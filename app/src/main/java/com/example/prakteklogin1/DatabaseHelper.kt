@@ -54,7 +54,7 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, MY_DATABASE, 
         }
     }
 
-    fun getUser(id: Int): User? { // overiding
+    fun getUser(id: Int): User? { // overriding
         val db = readableDatabase
         val query = "SELECT * FROM user WHERE id = ?"
         val cursor = db.rawQuery(query, arrayOf(id.toString()))

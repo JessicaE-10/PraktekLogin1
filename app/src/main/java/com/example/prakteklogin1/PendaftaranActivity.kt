@@ -58,7 +58,7 @@ class PendaftaranActivity : AppCompatActivity() {
 
             } else {
                 Toast.makeText(
-                    this, "Umur Tidak Boleh Kosong",
+                    this, "Umur Harap Diisi",
                     Toast.LENGTH_LONG
                 ).show()
 
