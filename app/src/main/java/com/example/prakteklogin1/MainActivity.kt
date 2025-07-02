@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intentDashboard)
             } else {
                 // ini jika salah
-                Toast.makeText(applicationContext, "USERNAME/UMUR SALAH", Toast.LENGTH_LONG).show()
+                Toast.makeText(applicationContext, "USERNAME/UMUR TIDAK TEPAT", Toast.LENGTH_LONG).show()
             }
         }
 

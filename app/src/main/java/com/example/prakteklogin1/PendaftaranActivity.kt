@@ -47,7 +47,7 @@ class PendaftaranActivity : AppCompatActivity() {
 
             if (result == true) {
                 Toast.makeText(
-                    this, "Data berhasil disimpan",
+                    this, "Data Berhasil Disimpan",
                     Toast.LENGTH_LONG
                 ).show()
 
@@ -58,7 +58,7 @@ class PendaftaranActivity : AppCompatActivity() {
 
             } else {
                 Toast.makeText(
-                    this, "Data gagal disimpan",
+                    this, "Umur Tidak Boleh Kosong",
                     Toast.LENGTH_LONG
                 ).show()
 
