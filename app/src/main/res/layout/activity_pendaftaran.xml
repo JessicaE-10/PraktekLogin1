@@ -138,7 +138,7 @@
         android:layout_marginLeft="20sp"
         android:layout_marginTop="20sp"
         android:layout_marginRight="20sp"
-        android:backgroundTint="#71AD2B"
+        android:backgroundTint="#6FB41E"
         android:text="SIMPAN"
         android:textColor="#FFFFFF"
         android:textStyle="bold" />
