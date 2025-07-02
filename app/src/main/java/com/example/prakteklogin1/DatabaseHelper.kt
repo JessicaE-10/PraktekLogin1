@@ -13,7 +13,7 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, MY_DATABASE, 
 
     override fun onCreate(db: SQLiteDatabase?) {
         val createTable =
-            "CREATE TABLE user (id INTEGER PRIMARY KEY AUTOINCREMENT, nama_lengkap TEXT, umur INT, username TEXT, password TEXT)"
+            "CREATE TABLE user (id INTEGER PRIMARY KEY AUTOINCREMENT, nama_lengkap TEXT, umur INT, username TEXT, password TEXT)" //create kolom umur
         db?.execSQL(createTable)
     }
 
@@ -105,8 +105,8 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, MY_DATABASE, 
         val result = db.update(
             "user",
             values,
-            "id = ?",       // WHERE clause
-            arrayOf(id)                 // WHERE args
+            "id = ?",
+            arrayOf(id)
         )
 
         if(result > 0){

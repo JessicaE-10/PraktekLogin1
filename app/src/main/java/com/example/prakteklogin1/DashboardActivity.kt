@@ -24,7 +24,7 @@ class DashboardActivity : AppCompatActivity() {
         val btnLihatData = findViewById<Button>(R.id.btnLihatData)
         btnLihatData.setOnClickListener(){
             val intentEdit = Intent(this, PendaftaranActivity::class.java)
-            intentEdit.putExtra("id", id)
+            intentEdit.putExtra("id", id) //tampilan dashboard setelah login username dan umur
             startActivity(intentEdit)
         }
 
