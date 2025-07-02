@@ -15,7 +15,9 @@
         android:gravity="center"
         android:paddingTop="30sp"
         android:text="LOGIN"
-        android:textSize="30sp" />
+        android:textColor="#5EAD3E"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView5"
@@ -33,7 +35,9 @@
         android:layout_marginTop="20sp"
         android:layout_marginRight="20sp"
         android:ems="10"
-        android:inputType="text" />
+        android:inputType="text"
+        android:text="Masukan Username"
+        android:textColor="#9E9B9B" />
 
     <TextView
         android:id="@+id/textView6"
@@ -41,17 +45,19 @@
         android:layout_height="wrap_content"
         android:paddingLeft="20sp"
         android:paddingTop="20sp"
-        android:text="Password" />
+        android:text="Umur" />
 
     <EditText
-        android:id="@+id/inputPassword"
+        android:id="@+id/inputUmur"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20sp"
         android:layout_marginTop="20sp"
         android:layout_marginRight="20sp"
         android:ems="10"
-        android:inputType="text" />
+        android:inputType="text"
+        android:text="Masukan Umur"
+        android:textColor="#B1B1B1" />
 
     <Button
         android:id="@+id/btnSubmit"
@@ -60,17 +66,17 @@
         android:layout_marginLeft="20sp"
         android:layout_marginTop="20sp"
         android:layout_marginRight="20sp"
-        android:backgroundTint="#1BAD1F"
+        android:backgroundTint="#27E92B"
         android:text="SUBMIT" />
 
     <Button
-        android:id="@+id/btnReset"
+        android:id="@+id/btnDaftar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20sp"
         android:layout_marginTop="20sp"
         android:layout_marginRight="20sp"
-        android:backgroundTint="#F21010"
-        android:text="RESET" />
+        android:backgroundTint="#673AB7"
+        android:text="DAFTAR" />
 
 </LinearLayout>
